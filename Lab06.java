@@ -81,7 +81,7 @@ import javax.swing.JOptionPane;
  	
           Display.openWorld("maps/" + filename + ".map");
           Display.setSize(10, 10);
-          Display.setSpeed(1);
+          Display.setSpeed(7);
           
           Athlete alex = new Athlete(1, 1, Display.EAST, Display.INFINITY);
           Athlete henry = new Athlete(1, 2, Display.EAST, Display.INFINITY);
